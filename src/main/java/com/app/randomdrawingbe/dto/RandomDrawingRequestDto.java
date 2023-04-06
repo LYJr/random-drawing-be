@@ -1,5 +1,6 @@
 package com.app.randomdrawingbe.dto;
 
+import com.app.randomdrawingbe.enums.RandomDrawingTypeEnum;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,5 +14,5 @@ public class RandomDrawingRequestDto {
 
     private List<String> items;
     private Integer drawCount;
-    private String type;
+    private RandomDrawingTypeEnum type;
 }
